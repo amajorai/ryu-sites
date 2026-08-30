@@ -1,0 +1,26 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ryu.sites",
+  "version": "0.1.0",
+  "description": "A local-first Sites control surface for previewing projects, public-edge routes, domains, quotas, and Help Center widgets.",
+  "author": {
+    "name": "Ryu",
+    "url": "https://ryuhq.com"
+  },
+  "homepage": "https://github.com/amajorai/ryu-sites",
+  "repository": "https://github.com/amajorai/ryu-sites",
+  "keywords": [
+    "sites",
+    "publishing",
+    "hosting",
+    "domains",
+    "public edge",
+    "widgets"
+  ],
+  "extensions": {
+    "com.ryuhq.ryu": {
+      "id": "@ryu/sites",
+      "displayName": "Sites"
+    }
+  }
+}
