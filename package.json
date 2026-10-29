@@ -1,0 +1,8 @@
+{
+  "name": "ryu-sites-satellite",
+  "private": true,
+  "workspaces": [
+    "sidecar",
+    "packages/*"
+  ]
+}
